@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colores personalizados */
+  --color-dark: #0D1117;
+  --color-light: #FFFFFF;
+  --color-highlight: #E3FF6A;
+  --color-neon-green: #A4FF7A;
+  --color-deep-blue: #1E293B;
+  --color-soft-gray: #8892B0;
+
+  /* Gradiente personalizado */
+  --background-image-gradient-main: linear-gradient(135deg, #1E293B 0%, #0D1117 100%);
+  --background-image-gradient-radient: bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90%;  
+
+}
+
+
+/* Focus ring en amarillo para accesibilidad */
+     input:focus, textarea:focus {
+      outline: none;
+      border-color: #E3FF6A;
+    }
+    /* Hover en links de menú */
+    .menu-link:hover { color: #E3FF6A; }
+    /* Hover btn-nav */
+    .btn-nav:hover { background-color: #d4f050; }
+    /* Hover btn-primario */
+    .btn-primario:hover { background-color: #d4f050; }
+    /* Hover btn-secundario */
+    .btn-secundario:hover { background-color: #E3FF6A; color: #0D1117; }
+    /* Hover btn-small */
+    .btn-small:hover { background-color: #d4f050; }
+    /* Hover btn-small-outline */
+    .btn-small-outline:hover { background-color: #E3FF6A; color: #0D1117; }
+    /* Hover btn-enviar */
+    .btn-enviar:hover { background-color: #d4f050; }
+    /* Hover footer links */
+    .footer-link:hover { color: #E3FF6A; }
