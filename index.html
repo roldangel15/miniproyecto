@@ -13,7 +13,7 @@
   <!-- ==============================
        BARRA DE NAVEGACIÓN
   ============================== -->
-  <nav class="bg-deepBlue px-10 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 text-center sm:text-left md:sticky top-0 bg-dark z-50">
+  <nav class="bg-deepBlue px-10 py-4 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0 text-center sm:text-left sm:sticky top-0 bg-dark z-50">
 
     <!-- Logo -->
     <a href="#">
@@ -27,14 +27,14 @@
 
     <!-- Links del menú -->
     <ul class="list-none m-0 p-0 flex flex-wrap justify-center gap-x-8">
-      <li><a href="#sobre-mi"    class="menu-link text-light text-[15px] md:text-5xl no-underline transition-colors duration-200">ABOUT ME</a></li>
-      <li><a href="#habilidades" class="menu-link text-light text-[15px] md:text-5xl no-underline transition-colors duration-200">SKILLS</a></li>
-      <li><a href="#proyectos"   class="menu-link text-light text-[15px] md:text-5xl no-underline transition-colors duration-200">PROJECTS</a></li>
+      <li><a href="#sobre-mi"    class="menu-link text-light text-[15px] sm:text-5xl no-underline transition-colors duration-200">ABOUT ME</a></li>
+      <li><a href="#habilidades" class="menu-link text-light text-[15px] sm:text-5xl no-underline transition-colors duration-200">SKILLS</a></li>
+      <li><a href="#proyectos"   class="menu-link text-light text-[15px] sm:text-5xl no-underline transition-colors duration-200">PROJECTS</a></li>
       
     </ul>
 
     <!-- Botón de contacto -->
-    <a href="#contacto" class="btn-nav bg-highlight text-dark md:text-[28px] px-5 py-2 rounded-full font-bold text-sm no-underline transition-colors duration-200">Contact</a>
+    <a href="#contacto" class="btn-nav bg-highlight text-dark sm:text-[28px] px-5 py-2 rounded-full font-bold text-sm no-underline transition-colors duration-200">Contact</a>
 
   </nav>
 
@@ -47,9 +47,9 @@
      <h1 class="font-sans-serif text-[32px] sm:text-[82px] m-0 mb-2.5">I'm <span class="text-highlight">Rolando Campuzano</span></h1>
        <p class="text-softGray text-[18px] sm:text-[28px] m-0 mb-8">Full Stack Developer — React · Node.js · WordPress</p>
     </div>
-    <div class="flex flex-col md:flex-row md:justify-between gap-x-30 items-center w-full max-w-7xl">     
+    <div class="flex flex-col sm:flex-row sm:justify-between gap-x-30 items-center w-full">     
        <!-- Foto del desarrollador -->
-      <div class="order-2 md:order-1 md:flex-1 md:transform md:-rotate-9 bg-slate-900/40 backdrop-blur-md px-10 rounded-3xl shadow-2xl border border-slate-800 space-y-4">
+      <div class="order-2 sm:order-1 sm:flex-1 sm:transform sm:-rotate-9 bg-slate-900/40 backdrop-blur-md px-10 rounded-3xl shadow-2xl border border-slate-800 space-y-4">
                 <p class="text-2xl font-bold text-slate-300 flex items-center gap-2">
                     Client Review From Australia
                     <span class="inline-block bg-lime-400 text-black px-2 py-0.5 rounded text-base font-bold">4.9</span>
@@ -61,7 +61,7 @@
       </div>  
        
              
-       <div class="order-1 md:order-2 md:flex-2">
+       <div class="order-1 sm:order-2 sm:flex-2">
         <div class="relative">
          
          
@@ -73,14 +73,14 @@
           />
           </div>
      
-            <div class="flex justify-center md:gap-4 flex-wrap">
-                <a href="#proyectos" class="btn-primario bg-highlight text-dark px-7 py-3 rounded-[25px] font-bold text-[15px] absolute bottom-0.5 md:bottom-20 inline-block no-underline transition-colors duration-200">My Projects →</a>
+            <div class="flex justify-center sm:gap-4 flex-wrap">
+                <a href="#proyectos" class="btn-primario bg-highlight text-dark px-7 py-3 rounded-[25px] font-bold text-[15px] absolute bottom-0.5 sm:bottom-20 inline-block no-underline transition-colors duration-200">My Projects →</a>
                   <!--  <a href="#sobre-mi"  class="btn-secundario border-2 border-highlight text-highlight px-7 py-3 rounded-[25px] text-[15px] inline-block no-underline transition-colors duration-200">Sobre mí</a>-->
             </div>
 
         </div>
 
-        <div class="order-3 transform md:rotate-9 md:flex-1 bg-slate-900/40 backdrop-blur-md p-10 rounded-3xl shadow-2xl border border-slate-800 space-y-8">
+        <div class="order-3 transform sm:rotate-9 sm:flex-1 bg-slate-900/40 backdrop-blur-md p-10 rounded-3xl shadow-2xl border border-slate-800 space-y-8">
                 <p class="text-2xl font-bold text-slate-300 mb-6">MY EXPERTISE</p>
 
                 <div>
@@ -123,7 +123,7 @@
   <!-- ==============================
        SECCIÓN SOBRE MÍ
   ============================== -->
-  <section class="px-10 py-15 sm:px-5 sm:py-12.5 text-center" id="sobre-mi">
+  <section class="px-10 py-5 sm:px-5  sm:py-10 text-center" id="sobre-mi">
 
     <h2 class="text-[32px] sm:text-[42px] text-highlight mb-10">WHO AM I?</h2>
 
@@ -134,22 +134,22 @@
     <div class="relative max-w-225 mx-auto flex flex-col sm:flex-row items-center">
 
       <!-- ── FOTO 1 — izquierda, rotada -8° ── -->
-      <div class="hidden sm:flex shrink-0 items-start justify-center w-[160px] min-h-[280px] relative">
+      <div class="hidden sm:flex shrink-0 items-start justify-center w-40 min-h-70 relative">
         <img
           src="./img/foto1.png"
           alt="Foto 1"
           class="absolute top-0 left-0
-                 w-[130px] aspect-[3/4] object-cover
+                 w-32.5 aspect-3/4 object-cover
                  border-[3px] border-highlight rounded
                  shadow-[0_8px_24px_rgba(0,0,0,0.6)]
-                 -rotate-[8deg]
+                 rotate-[-8deg]
                  transition-transform duration-300
-                 hover:-rotate-[4deg] hover:scale-105 hover:z-10"
+                 hover:rotate-[-4deg] hover:scale-105 hover:z-10"
         />
       </div>
 
       <!-- ── TEXTO CENTRAL ── -->
-      <div class="flex-1 px-4 sm:text-9xl sm:px-10 text-center z-[2]">
+      <div class="flex-1 px-4 sm:text-9xl sm:px-10 text-center z-2">
 
         <p class="text-softGray text-base sm:text-2xl leading-[1.8] mb-3.5">
           I am a full-stack web developer specializing in
@@ -185,7 +185,7 @@
           src="./img/foto2.png"
           alt="Foto 2"
           class="absolute top-5 right-0
-                 w-[130px] aspect-[3/4] object-cover
+                 w-32.5 aspect-3/4 object-cover
                  border-[3px] border-highlight rounded
                  shadow-[0_8px_24px_rgba(0,0,0,0.6)]
                  rotate-[7deg]
@@ -201,12 +201,12 @@
       <img
         src="./img/foto3.png"
         alt="Foto 3"
-        class="w-[130px] aspect-[3/4] object-cover
+        class="w-32.5 aspect-3/4 object-cover
                border-[3px] border-highlight rounded
                shadow-[0_8px_24px_rgba(0,0,0,0.6)]
-               -rotate-[3deg]
+               -rotate-3
                transition-transform duration-300
-               hover:-rotate-[1deg] hover:scale-105"
+               hover:-rotate-1 hover:scale-105"
       />
     </div>
 
@@ -215,16 +215,16 @@
       <img
         src="./img/foto1.png"
         alt="Foto 1"
-        class="w-[90px] aspect-[3/4] object-cover
+        class="w-22.5 aspect-3/4 object-cover
                border-2 border-highlight rounded
                shadow-[0_4px_12px_rgba(0,0,0,0.5)]
-               -rotate-[6deg]
+               -rotate-6
                transition-transform duration-300"
       />
       <img
         src="./img/foto2.png"
         alt="Foto 2"
-        class="w-[90px] aspect-[3/4] object-cover
+        class="w-22.5 aspect-3/4 object-cover
                border-2 border-highlight rounded
                shadow-[0_4px_12px_rgba(0,0,0,0.5)]
                rotate-[5deg] -translate-y-3
@@ -247,14 +247,14 @@
   <!-- ==============================
        SECCIÓN HABILIDADES
   ============================== -->
-  <section class="bg-deepBlue px-0.5 md:px-10 py-15 sm:px-400 sm:py-12.5 text-center">
+  <section class="bg-deepBlue px-0.5 sm:px-10 py-5 sm:py-10 text-center">
 
     <h2 class="text-[32px] sm:text-[42px] text-highlight mb-0">MY SKILLS</h2>
 
     <!-- Cajitas de tecnologías -->
     <div class=" grid grid-cols-[repeat(4,minmax(0,1fr))_2fr] grid-rows-2 items-center gap-0.5 w-full">
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[1/2] row-[1/2] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[1/2] row-[1/2] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/HTML5.png" 
             alt="CSS3" 
@@ -263,7 +263,7 @@
           <span class="font-medium">HTML5</span>
       </div>  
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[2/3] row-[1/2] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[2/3] row-[1/2] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/logo-css3.png" 
             alt="CSS3" 
@@ -272,7 +272,7 @@
           <span class="font-medium">CSS3</span>
       </div>
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[3/4] row-[1/2] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[3/4] row-[1/2] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/js.png" 
             alt="CSS3" 
@@ -281,7 +281,7 @@
           <span class="font-medium">JavaScript</span>
       </div>
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[4/5] row-[1/2] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[4/5] row-[1/2] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/reacjs.png" 
             alt="CSS3" 
@@ -290,15 +290,15 @@
           <span class="font-medium">React.js</span>
       </div>
             <div class=" bg-dark border border-[#2a3a50] rounded col-[5/6] row-span-2 py-5 items-center text-center justify-center text-white h-1/1 ml-3.5">
-              <p class="text-highlight text-4xl font-bold md:text-6xl">4</p>
-              <p class="text-sm md:text-lg leading-tight uppercase tracking-tighter">
+              <p class="text-highlight text-4xl font-bold sm:text-6xl">4</p>
+              <p class="text-sm sm:text-lg leading-tight uppercase tracking-tighter">
                 Years <br>Experience <br>Working
               </p>
-             <a href="#" class="btn-primario bg-highlight text-dark px-1 py-1 md:px-7 med:py-3 rounded-[25px] font-bold text-[10px] md:text-[15px] inline-block no-underline transition-colors duration-200">Download CV</a> 
+             <a href="#" class="btn-primario bg-highlight text-dark px-1 py-1 sm:px-7 med:py-3 rounded-[25px] font-bold text-[10px] sm:text-[15px] inline-block no-underline transition-colors duration-200">Download CV</a> 
              
         </div>
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[1/2] row-[2/3] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[1/2] row-[2/3] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/next.png" 
             alt="CSS3" 
@@ -307,7 +307,7 @@
           <span class="font-medium">Next.js</span>
       </div>
 
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[2/3] row-[2/3] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[2/3] row-[2/3] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/node-js.png" 
             alt="CSS3" 
@@ -315,7 +315,7 @@
           />
           <span class="font-medium">Node.js</span>
       </div>
-      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[3/4] row-[2/3] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+      <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[3/4] row-[2/3] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/tailwind.png" 
             alt="CSS3" 
@@ -324,7 +324,7 @@
           <span class="font-medium">Tailwind</span>
       </div>
 
-       <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[4/5] row-[2/3] w-full px-2 py-4 text-xs md:text-sm text-light min-w-22.5 flex flex-col items-center">
+       <div class="bg-dark border border-[#2a3a50] rounded-[10px] col-[4/5] row-[2/3] w-full px-2 py-4 text-xs sm:text-sm text-light min-w-22.5 flex flex-col items-center">
           <img 
             src="./img/wordpress.png" 
             alt="CSS3" 
@@ -333,17 +333,12 @@
           <span class="font-medium">WordPress</span>
       </div>
 
-      
-
-
-
-
     </div>
 </section>
 
-<section class="bg-deepBlue border border-[#2a3a50] px-0.5 py-4 sm:px-5 sm:py-12.5 text-center">
-
- <h2 class="text-[22px] sm:text-[32px] text-highlight mb-0">ADDITIONAL SKILLS</h2>
+<section class="bg-deepBlue  px-0.5 py-4 sm:px-5 sm:py-10 text-center">
+<div class="sm:max-w-6xl sm:mx-auto sm:px-4 sm:border border-[#2a3a50] rounded-2xl">
+   <h2 class="text-[22px] sm:text-[32px] text-highlight mb-0">ADDITIONAL SKILLS</h2>
 
  <div class="flex flex-wrap justify-center gap-0 mt-8 mb-8">
 
@@ -421,6 +416,7 @@
 
     </div>
 
+</div>
 
 
   </section>
@@ -432,8 +428,8 @@
   <section class="bg-dark px-2 py-4 sm:px-5 sm:py-12.5 text-center"
            id="proyectos">
 
-    <h2 class="text-[32px] sm:text-[26px] text-highlight mb-0">MY PROJECTS</h2>
-    <p class="text-softGray mt-1">Some of the work I've done</p>
+    <h2 class="text-[32px] sm:text-[42px] text-highlight mb-0">MY PROJECTS</h2>
+    <p class="text-softGray mt-1 sm:text-3xl">Some of the work I've done</p>
 
     <div class="flex flex-wrap justify-center gap-6 mt-8">
 
