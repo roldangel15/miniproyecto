@@ -86,24 +86,37 @@
   <!-- ==============================
        GRID DE PROYECTOS (dinámico)
   ============================== -->
-  <section class="bg-dark px-2 py-8 sm:px-5 sm:py-12 text-center">
-    <!--
-      Las tarjetas son insertadas aquí por proyectos.js
-      usando la función cargarTodosLosProyectos()
-    -->
-    <div id="proyectos-todos-grid"
-         class="flex flex-wrap justify-center gap-6 mt-2 transition-all duration-300">
-    </div>
+  <section class="bg-dark dark:bg-[linear-gradient(135deg,rgba(226,226,226,1)_0%,rgba(219,219,219,1)_50%,rgba(209,209,209,1)_50%,rgba(209,209,209,1)_50%,rgba(254,254,254,1)_100%)] px-2 py-4 sm:px-5 sm:py-12.5 text-center"
+           id="proyectos">
 
-    <!-- Volver al inicio -->
-    <div class="mt-12">
-      <a href="index.html"
-         class="btn-secundario border-2 border-highlight text-highlight
-                px-7 py-3 rounded-[25px] text-[15px] inline-block
-                no-underline transition-colors duration-200">
-        ← Back to Home
+    <h2 class="text-[32px] sm:text-[42px] text-highlight dark:text-[#374151] mb-0">MY PROJECTS</h2>
+    <p class="text-softGray dark:text-[#4a5568] mt-1 sm:text-3xl">Some of the work I've done</p>
+
+   <div class="flex flex-col md:flex-row mt-8 gap-6">
+
+  <!-- ★ DIV 1 (1/4 del ancho en pantallas grandes) -->
+  <div class="md:w-1/4">
+    <div class="bg-deepBlue dark:bg-[#e8edf5] rounded-xl overflow-hidden text-left h-full flex flex-col justify-center p-9 sm:p-6">
+      <h2 class="text-light dark:text-dark text-[28px] sm:text-[42px] m-0 leading-[1.2]">
+        THE WORKS<br>CLOSEST TO<br>MY HEART
+      </h2>
+      <p class="text-softGray dark:text-[#4a5568] text-[14px] m-0 my-3">
+        Projects that reflect my passion for web development and design.
+      </p>
+      <a href="#" class="btn-primario bg-highlight dark:bg-[#cce6ff] dark:text-deep-blue text-dark px-5 py-2.5 rounded-[25px] font-bold text-[14px] inline-block w-fit mt-2 transition-colors duration-200">
+        See all →
       </a>
     </div>
+  </div>
+
+  <!-- ★ DIV 2 (3/4 del ancho en pantallas grandes) -->
+  <div id="proyects" class="md:w-3/4 grid grid-cols-1 md:grid-cols-3 gap-6">
+    
+    <!-- se carga dinamicamente desde proyectos.js -->
+    
+       </div> 
+    </div>
+
   </section>
 
 
