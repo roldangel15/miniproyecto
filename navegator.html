@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegación</title>
+  
+    <link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.0.0/index.min.css" rel="stylesheet">
+    <style>
+        .nav-item {
+            transition: all 0.3s ease;
+        }
+        .nav-item:active {
+            transform: scale(0.97);
+        }
+    </style>
+</head>
+<body class="min-h-screen flex items-start justify-center pt-20" style="background: linear-gradient(135deg, #7c3aed 0%, #6d28d9 50%, #5b21b6 100%);">
+
+    <nav class="w-full max-w-2xl mx-auto px-4">
+        <div class="flex items-center w-full">
+
+            <!-- Home (active) -->
+            <button class="nav-item flex-1 py-5 px-4 text-white font-bold text-lg cursor-pointer select-none rounded-b-2xl bg-linear-to-b from-rose-500 to-purple-500">
+                Home
+            </button>
+
+            <!-- About -->
+            <button class="nav-item flex-1 py-5 px-4 text-white font-bold text-lg cursor-pointer select-none hover:rounded-b-2xl hover:bg-gradient-to-b hover:from-rose-500 hover:to-purple-500">
+                About
+            </button>
+
+            <!-- Portfolio -->
+            <button class="nav-item flex-1 py-5 px-4 text-white font-bold text-lg cursor-pointer select-none hover:rounded-b-2xl hover:bg-gradient-to-b hover:from-rose-500 hover:to-purple-500">
+                Portfolio
+            </button>
+
+            <!-- Products -->
+            <button class="nav-item flex-1 py-5 px-4 text-white font-bold text-lg cursor-pointer select-none hover:rounded-b-2xl hover:bg-gradient-to-b hover:from-rose-500 hover:to-purple-500">
+                Products
+            </button>
+
+        </div>
+    </nav>
+
+</body>
+</html>
